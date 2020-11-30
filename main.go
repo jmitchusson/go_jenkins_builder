@@ -7,4 +7,5 @@ import (
 func main() {
 	hello.HelloWorld()
 	hello.HelloGopher()
+	hello.HelloJenkins()
 }
