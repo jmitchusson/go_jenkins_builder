@@ -9,4 +9,5 @@ func HelloJenkins() {
 	fmt.Println("Please Work")
 	fmt.Println("Testing build")
 	fmt.Println("Testing post build")
+	fmt.Println("we should have it")
 }
