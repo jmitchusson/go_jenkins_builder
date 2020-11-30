@@ -17,8 +17,8 @@ pipeline {
         }
         stage('build') {
             steps {
-                go build
-                ./go_jenkins_builder
+                sh "go build \\
+                ./go_jenkins_builder"
             }
         }
     }
