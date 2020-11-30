@@ -28,7 +28,7 @@ pipeline {
         stage('push to master') {
             steps {
                 withCredentials([usernamePassword(credentialsId: '8c8e4bd9-e12e-413c-95af-ede6b7e7c267', passwordVariable: 'VALUE', usernameVariable: 'NAME')]) {
-                    sh "git push https://${NAME}:${VALUE}@github.com/jmitchusson/go_jenkins_builder.git HEAD:master"
+                    sh 'git push https://$NAME:$VALUE@github.com/jmitchusson/go_jenkins_builder.git HEAD:master'
                 }
             }
         }
