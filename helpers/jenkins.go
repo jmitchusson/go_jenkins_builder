@@ -6,4 +6,5 @@ import (
 
 func HelloJenkins() {
 	fmt.Println("Hello Jenkins")
+	fmt.Println("Please Work")
 }
